@@ -213,6 +213,7 @@ mySprite,
 200,
 true
 )
+music.baDing.play()
 info.startCountdown(10)
 forever(function () {
     projectile2 = sprites.createProjectileFromSide(img`
